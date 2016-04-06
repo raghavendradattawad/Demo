@@ -10,8 +10,15 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+    
+NSArray*array=@[@"IPhone4",@"IPhon5s",@"IPhone5s",@"IPhone6",@"IPhone6s"];
+    
+NSLog(@"all The Array Elements:%@",array);
+NSArray*laptopArray=[NSArray arrayWithObjects:@"Dell",@"HP",@"Lenovo",@"acer", nil];
+    
+NSLog(@"Different Laptop Brands %@",laptopArray);
+    
+    
     }
     return 0;
 }
